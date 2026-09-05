@@ -1,0 +1,15 @@
+{
+    "display_name": "Pixel Farm",
+    "loading_order": 20,
+    "requires": [],
+    "optional": [],
+    "js": "index.js",
+    "css": "style.css",
+    "author": "YuToo",
+    "version": "0.1.0",
+    "homePage": "https://github.com/yutooobig/PixelFarm",
+    "i18n": {
+        "zh-cn": "i18n/zh-cn.json",
+        "en-us": "i18n/en-us.json"
+    }
+}
