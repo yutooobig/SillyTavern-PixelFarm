@@ -1,0 +1,14 @@
+{
+    "id": "parsnip",
+    "name": "防风草",
+    "seasons": ["spring"],
+    "growthDays": 4,
+    "harvestType": "once",
+    "regrowDays": 0,
+    "seedPrice": 20,
+    "sellPrice": 35,
+    "stages": 4,
+    "texture": "assets/crops/parsnip.png",
+    "color": "#5dbb46",
+    "produceColor": "#e8d8a8"
+}
