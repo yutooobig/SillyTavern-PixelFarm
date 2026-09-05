@@ -116,3 +116,88 @@
     cursor: pointer;
     padding: 10px;
 }
+/* ====== 工具栏 ====== */
+.pixelfarm-toolbar {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.pixelfarm-tool {
+    min-width: 40px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.pixelfarm-tool.active {
+    border: 2px solid var(--SmartThemeQuoteColor, #8a7);
+    box-shadow: 0 0 6px var(--SmartThemeQuoteColor, #8a7);
+}
+
+.pixelfarm-seed-select {
+    max-width: 160px;
+    padding: 4px 6px;
+    border-radius: 6px;
+    background: var(--black30a, #333);
+    color: var(--SmartThemeBodyColor, #ddd);
+    border: 1px solid var(--SmartThemeBorderColor, #666);
+}
+
+.pixelfarm-seed-count { opacity: 0.75; font-size: 0.9em; }
+
+/* ====== 地块与作物贴图 ====== */
+.pixelfarm-tile { position: relative; }
+
+.pixelfarm-plant {
+    position: absolute;
+    inset: 12%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    image-rendering: pixelated; /* 像素贴图放大不糊 */
+    pointer-events: none;
+}
+
+.pixelfarm-plant--mature {
+    filter: drop-shadow(0 0 5px #ffd700);
+    animation: pixelfarm-pulse 1.2s ease-in-out infinite;
+}
+
+@keyframes pixelfarm-pulse {
+    50% { filter: drop-shadow(0 0 10px #ffd700); }
+}
+
+.pixelfarm-plant--withered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.6em;
+    filter: grayscale(0.6);
+}
+
+/* ====== 商店与背包 ====== */
+.pixelfarm-shop {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 8px;
+}
+
+.pixelfarm-shop .menu_button { flex: 1; text-align: center; cursor: pointer; }
+
+.pixelfarm-produce {
+    margin-bottom: 12px;
+    padding: 8px;
+    border-radius: 6px;
+    background: rgba(0, 0, 0, 0.2);
+    font-size: 0.95em;
+    min-height: 1.4em;
+}
+
+.pixelfarm-gold { font-weight: bold; }
+
+/* ====== 土壤状态（沿用原三态配色）====== */
+.pixelfarm-soil--empty   { background: linear-gradient(135deg, #5a7a3f, #46622f); }
+.pixelfarm-soil--tilled  { background: repeating-linear-gradient(0deg, #7a5230, #7a5230 8px, #6a4626 8px, #6a4626 16px); }
+.pixelfarm-soil--watered { background: repeating-linear-gradient(0deg, #4a3d5e, #4a3d5e 8px, #3d3250 8px, #3d3250 16px); }
