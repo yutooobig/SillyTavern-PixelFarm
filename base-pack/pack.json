@@ -1,0 +1,7 @@
+{
+    "id": "base",
+    "name": "基础作物包",
+    "version": "0.1.0",
+    "description": "像素农场内置作物（春/夏各 3 种）",
+    "crops": ["parsnip", "potato", "cauliflower", "green_bean", "tomato", "melon"]
+}
