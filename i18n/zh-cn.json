@@ -1,0 +1,17 @@
+{
+    "pixelfarm_display_name": "像素农场 Pixel Farm",
+    "pixelfarm_settings_enable": "启用插件",
+    "pixelfarm_settings_open": "打开农场",
+    "pixelfarm_tab_farming": "农田",
+    "pixelfarm_tab_fishing": "钓鱼",
+    "pixelfarm_tab_mining": "矿洞",
+    "pixelfarm_tab_foraging": "采集",
+    "pixelfarm_panel_title": "像素农场",
+    "pixelfarm_seasons": "春,夏,秋,冬",
+    "pixelfarm_day": "第 {0} 天 · {1}季 · ☀️ 晴天",
+    "pixelfarm_sleep": "睡觉（进入下一天）",
+    "pixelfarm_tile_empty": "荒地",
+    "pixelfarm_tile_tilled": "耕地",
+    "pixelfarm_tile_watered": "已浇水",
+    "pixelfarm_placeholder": "「{0}」玩法开发中，敬请期待"
+}
