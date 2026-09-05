@@ -1,0 +1,17 @@
+{
+    "pixelfarm_display_name": "Pixel Farm",
+    "pixelfarm_settings_enable": "Enable extension",
+    "pixelfarm_settings_open": "Open Farm",
+    "pixelfarm_tab_farming": "Farm",
+    "pixelfarm_tab_fishing": "Fishing",
+    "pixelfarm_tab_mining": "Mine",
+    "pixelfarm_tab_foraging": "Forage",
+    "pixelfarm_panel_title": "Pixel Farm",
+    "pixelfarm_seasons": "Spring,Summer,Fall,Winter",
+    "pixelfarm_day": "Day {0} · {1} · ☀️ Sunny",
+    "pixelfarm_sleep": "Sleep (next day)",
+    "pixelfarm_tile_empty": "Untilled",
+    "pixelfarm_tile_tilled": "Tilled",
+    "pixelfarm_tile_watered": "Watered",
+    "pixelfarm_placeholder": "\"{0}\" is under development, stay tuned"
+}
